@@ -702,9 +702,10 @@ body{
         width:90%;
         padding-left:20px;
         padding-top:0px;
-        height:6%;
+        height:10%;
     }
     .para{
+        display:none;
         width:100%;
         color:white;
         font-size: 10px;
@@ -715,6 +716,14 @@ body{
         
         font-weight: 400;
         font-family: "HelveticaNeueLTPro-Hv", "HelveticaNeue-Heavy", "Helvetica Neue Heavy", "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif;
+    }
+    .parafor550{
+        margin-top:40px;
+        display: block;
+        width:100%;
+    }
+    .parafor5502{
+        display: block;
     }
     
 
