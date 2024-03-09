@@ -1,0 +1,813 @@
+body{
+    background-color: black;
+}
+.navbar{
+    background-color: black;
+}
+.maindiv{
+    width:100%;
+    height:75px;
+    display:flex;
+    background-color: black;
+    font-family: HelveticaNeueLTPro-Roman, HelveticaNeue-Roman, "Helvetica Neue Roman", "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif;;
+    position:relative;
+    z-index: 0;
+}
+.content{
+    margin-left:5%;
+    width:90%;
+    height:58px;
+    background-color: black;
+    display:flex;
+}
+.logo{
+    width:19%;
+    height:70px;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+.innerlogo{
+    background-image: url("./completelogo.jpg");
+   background-size: contain;
+   background-repeat: no-repeat;
+    height:100%;
+    width:80%;
+    margin-bottom: 20px;
+    margin-top: 8px;
+}
+.content-link{
+    color:white;
+    font-weight: 400;
+     font-size: 12px;
+     font-family: HelveticaNeueLTPro-Roman, HelveticaNeue-Roman, "Helvetica Neue Roman", "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif;
+}
+.first-section{
+    width:37.77%;
+    height:58px;
+    display:flex;
+    color:white;
+}
+.shop{
+    width:20%;
+    height:58px;
+    color:white;
+    font-weight: 400;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-bottom: 2px;
+}
+.inner-shop{
+    width:90%;
+    height:50%;
+
+}
+.pro-picks{
+    width:20%;
+    height:58px;
+    font-weight: 400;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-top:4px;
+
+}
+.inner-pro-picks{
+    width:90%;
+    height:50%;
+}
+.inside-skullcandy{
+    width:60%;
+    height:58px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-top:4px;
+}
+.inner-inside{
+    width:90%;
+    height:50%; 
+}
+.second-last{
+    width:40%;
+    height:58px;
+    display: flex;
+    flex-direction: row-reverse;
+    color:#969696;
+    font-size: 12px;
+}
+.inner-second-last{
+    width:50%;
+    display:flex;
+    align-items: center;
+    justify-content: center;
+}
+.support{
+    width:25%;
+    height:58px;
+    display:flex;
+    align-items: center;
+    justify-content: center;
+}
+.nationality{
+    width:25%;
+    height:58px;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+
+}
+.inner-nationality{
+    width: 50%;
+    height: 50%;
+    background-image: url(./circular-european.png);
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+.user{
+    width:25%;
+    height:58px;
+    margin-bottom:4%;
+}
+.search{
+    width:25%;
+    height:58px;
+    margin-bottom:4%;
+}
+.lock{
+   height:58px;
+}
+.slidelogo{
+    width:0px;
+    height:0px;
+    background-image: url(./slidelogo.png);
+    background-size:contain;
+    background-repeat: no-repeat;
+    transition: opacity .25s ease-out;
+}
+.sidebar{
+    background-color: white;
+    display:flex;
+    flex-direction: column;
+    width:0;
+    height:100vh;
+    position:fixed;
+    z-index: 999;
+    
+}
+.menubar{
+    display:none;
+}
+.menubar:hover{
+    cursor: pointer;
+}
+.belownav{
+    width:100%;
+    height:38px;
+    background-color: black;
+    color:white;
+    font-family: HelveticaNeueLTPro-Roman, HelveticaNeue-Roman, "Helvetica Neue Roman", "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif;
+    font-size: 12px;
+    font-weight: 400;
+    display: flex;
+    justify-content: center;
+    border-top:0.8px solid #969696;
+}
+@media (max-width:2100px){
+    .sidebar{
+        display: none;
+    }
+}
+@media (max-width: 1350px) {
+
+    .menubar{
+        display:block;
+    }
+    .maindiv,
+    .logo {
+        height: 80px;
+    }
+
+    .logo {
+        position: relative;
+        left: 30%;
+        width: 100%;
+    }
+    .first-section,.second-last{
+        display:none;
+
+    }
+}
+@media (max-width:1300px){
+    .maindiv,
+    .logo {
+        height: 80px;
+    }
+
+    .logo {
+        position: relative;
+        left: 33%;
+        width: 100%;
+    }
+    .first-section,.second-last{
+        display: none;
+    }
+
+}
+@media (max-width:1290px){
+    .maindiv,
+    .logo {
+        height: 80px;
+    }
+
+    .logo {
+        position: relative;
+        left: 35%;
+        width: 100%;
+    }
+   /* .lock{
+    position:relative;
+    left:5%;
+   } */
+    .first-section{
+        display: none;
+        height:0px;
+        width:0px;
+    }
+    .second-last {
+        display: none;
+    }
+}
+
+
+@media (max-width: 1250px) {
+    .maindiv,
+    .logo {
+        height: 80px;
+    }
+
+    .logo {
+        position: relative;
+        left: 25%; 
+    }
+   .lock{
+    position: relative;
+    right:10%;
+   }
+   
+}
+
+
+
+@media (max-width: 1050px) {
+    .maindiv,
+    .logo {
+        height: 80px;
+    }
+
+    .logo {
+        position: relative;
+        left: 28%;
+        width: 100%;
+    }
+}
+
+@media (max-width: 850px) {
+    .maindiv,
+    .logo {
+        height: 80px;
+    }
+
+    .logo {
+        position: relative;
+        left: 25%;
+        width: 100%;
+    }
+
+    .first-section,
+    .second-last {
+        display: none;
+    }
+}
+@media (max-width:780px){
+    .maindiv,
+    .logo {
+        height: 80px;
+    }
+
+    .logo {
+        position: relative;
+        left: 20%;
+        width: 100%;
+    }
+
+    .first-section,
+    .second-last {
+        display: none;
+    }
+}
+@media (max-width: 600px) {
+    .maindiv,
+    .logo {
+        height: 80px;
+    }
+
+    .logo {
+        width:100%;
+        position: relative;
+        left:-10px;
+    }
+
+    .lock {
+        position: relative;
+        right:50px;
+
+    }
+    
+
+    .first-section,
+    .second-last {
+        display: none;
+    }
+}
+
+@media (max-width:566px){
+    .maindiv,
+    .logo {
+        height: 80px;
+    }
+
+    .logo {
+        position: relative;
+        left:7%;
+
+        
+    }
+    .lock{
+        position: relative;
+        left:5%;
+    }
+
+    .first-section,
+    .second-last {
+        display: none;
+    }
+}
+
+@media (max-width:550px){
+    .maindiv,
+    .logo {
+        height: 80px;
+    }
+
+    .logo {
+        position: relative;
+        left: 5%;
+        width: 100%;
+    }
+    .lock{
+        position: relative;
+        right:5%;
+    }
+    
+
+    .first-section,
+    .second-last {
+        display: none;
+    }
+}
+@media (max-width:380px){
+    .maindiv,
+    .logo {
+        height: 80px;
+    }
+
+    .logo {
+        position: relative;
+        left: 7%;
+        width: 100%;
+    }
+
+    .first-section,
+    .second-last {
+        display: none;
+    }
+}
+@media(max-width:300px){
+    .maindiv,
+    .logo {
+        height: 100px;
+        width:100%;
+    }
+
+    .logo {
+        position: relative;
+        left: 9%;
+        width: 100%;
+    }
+    .lock{
+        position: relative;
+        left:2%;
+    }
+
+    .first-section,
+    .second-last {
+        display: none;
+    }
+}
+.common{
+    height:50px;
+    display:flex;
+    align-items: center;
+    border:0.8px solid #969696;
+    color:black;
+    font-family: HelveticaNeueLTPro-Roman, HelveticaNeue-Roman, "Helvetica Neue Roman", "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif;; 
+    font-size:12px;  
+    font-weight: 550;
+    opacity: 0;
+}
+.inner{
+    opacity: 0;
+    padding:22px 17px;
+}
+.inner:hover{
+    cursor: pointer;
+}
+.slide-user{
+    display: flex;
+    font-size: 12px;
+    font-family: HelveticaNeueLTPro-Roman, HelveticaNeue-Roman, "Helvetica Neue Roman", "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif;; 
+    color:#969696;
+    font-weight: 400;
+    align-items:center;
+}
+.slide-user:hover{
+    cursor:pointer;
+}
+.slide-search{
+    display: flex;
+    font-size: 12px;
+    font-family: HelveticaNeueLTPro-Roman, HelveticaNeue-Roman, "Helvetica Neue Roman", "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif;; 
+    color:#969696;
+    font-weight: 400;
+    align-items:center;
+}
+.slide-search:hover{
+    cursor: pointer;
+}
+.n{
+    opacity:0;
+}
+.belownav{
+    display:flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 12px;
+    font-family: HelveticaNeueLTPro-Roman, HelveticaNeue-Roman, "Helvetica Neue Roman", "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif;
+    font-weight: 400;
+}
+.first-main{
+    height: 91vh;
+    width:100%;
+    display: flex;
+}
+.first-image{
+    height:100%;
+    width:70%;
+    background-image: url(./first-image.jpg);
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+}
+.second-image{
+    width:30%;
+    height:100%;
+    display:flex;
+    flex-direction: column; 
+}
+.sub{
+    width:100%;
+    height:50%;
+}
+.inner-second-one{
+    background-image: url(./headphonekid.jpeg);
+    background-size: 100% 100%;
+    background-repeat:no-repeat;
+}
+.inner-second-two{
+    background-image: url(./greenearphones.jpeg);
+    background-size: 100% 100%;
+    background-repeat:no-repeat;
+}
+.tiny {
+    font-family: "HelveticaNeueLTPro-Hv", "HelveticaNeue-Heavy", "Helvetica Neue Heavy", "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif;
+    font-weight: 800;
+    font-size:36px;
+    color:white;
+    width:40%;
+    height:20%;
+    padding-top: 8%;
+    padding-left:10%;
+    padding-right: 10%;
+    height:3%;
+}
+.para{
+    color:white;
+    font-size: 16px;
+    width:35%;
+    padding-top: 8%;
+    padding-left:10%;
+    padding-right: 10%;
+    font-weight: 400;
+    font-family: "HelveticaNeueLTPro-Hv", "HelveticaNeue-Heavy", "Helvetica Neue Heavy", "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif;
+}
+.parafor550{
+    display: none;
+}
+.parafor5502{
+    display: none;
+}
+@media (max-width:1234px){
+    .tiny{
+        font-size: 33px;
+    }
+}
+@media (max-width:1350px)and(min-width:1234px){
+    .tiny{
+        font-size: 33px;
+    }
+}
+@media(max-width:1137px){
+    .tiny{
+        font-size: 32px;
+    }
+}
+@media(max-width:1103px){
+    .tiny{
+        font-size: 30px;
+    }
+}
+@media(max-width:1035px){
+    .tiny{
+        font-size: 30px;
+        width:50%;
+    }
+}
+@media(max-width:832px){
+    .tiny{
+        font-size: 30px;
+        width:60%;
+    }
+}
+@media(max-width:695px){
+    .tiny{
+        font-size: 30px;
+        width:70%;
+        height:5%;
+    }
+}
+@media(max-width:600px){
+    .tiny{
+        font-size: 30px;
+        width:80%;
+    }
+}
+@media (max-width:550px){
+    .first-main{
+        height: 200vh;
+        width:100%;
+        display: flex;
+        flex-direction: column;
+    }
+    .first-image{
+        height:40%;
+        width:100%;
+        background-image: url(./first-image550.jpg);
+        background-size: 100% 100%;
+        background-repeat: no-repeat;
+       
+        
+    }
+    .second-image{
+        width:100%;
+        height:60%;
+        display:flex;
+        flex-direction: column; 
+    }
+    .sub{
+        width:100%;
+        height:50%;
+    }
+    .inner-second-one{
+        background-image: url(./headphonekid.jpeg);
+        background-size: 100% 100%;
+        background-repeat:no-repeat;
+    }
+    .inner-second-two{
+        background-image: url(./greenearphones.jpeg);
+        background-size: 100% 100%;
+        background-repeat:no-repeat;
+    }
+    .tiny{
+        font-size: 30px;
+        text-align: center;
+        width:90%;
+        padding-left:20px;
+        padding-top: 10px;
+        height:10px;
+        
+    }
+    .para{
+        display: none;
+        color:white;
+        font-size: 14px;
+        width:100%;
+        height:30px;
+        padding-top: 10px;
+        padding-left: 30%;
+        font-weight: 400;
+        font-family: "HelveticaNeueLTPro-Hv", "HelveticaNeue-Heavy", "Helvetica Neue Heavy", "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif;
+    }
+    .parafor550{
+        display:block;
+        width:100%;
+        color:white;
+        font-size: 14px;
+        padding-top: 20px;
+        text-align: center;
+        font-weight: 400;
+        font-family: "HelveticaNeueLTPro-Hv", "HelveticaNeue-Heavy", "Helvetica Neue Heavy", "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif;
+    }
+    .parafor5502{
+        display:block;
+        width:100%;
+        color:white;
+        font-size: 14px;
+       
+        text-align: center;
+        font-weight: 400;
+        font-family: "HelveticaNeueLTPro-Hv", "HelveticaNeue-Heavy", "Helvetica Neue Heavy", "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif;
+    }
+    }
+    @media(max-width:473px){
+        .parafor550{
+            display:none;
+        }
+        .parafor5502{
+            display:none;
+        }
+        .para{
+            display: block;
+        }
+    }
+
+@media (max-width:450px){
+    .first-main{
+        height: 200vh;
+        width:100%;
+        display: flex;
+        flex-direction: column;
+    }
+    .first-image{
+        height:40%;
+        width:100%;
+        background-image: url(./first-image550.jpg);
+        background-size: 100% 100%;
+        background-repeat: no-repeat;
+    }
+    .second-image{
+        width:100%;
+        height:60%;
+        display:flex;
+        flex-direction: column; 
+    }
+    .sub{
+        width:100%;
+        height:50%;
+    }
+    .inner-second-one{
+        background-image: url(./headphonekid.jpeg);
+        background-size: 100% 100%;
+        background-repeat:no-repeat;
+    }
+    .inner-second-two{
+        background-image: url(./greenearphones.jpeg);
+        background-size: 100% 100%;
+        background-repeat:no-repeat;
+    }
+    .tiny{
+        font-size: 30px;
+        text-align: center;
+        width:90%;
+        padding-left:20px;
+        padding-top:0px;
+        height:6%;
+    }
+    .para{
+        width:100%;
+        color:white;
+        font-size: 10px;
+        text-align: center;
+        width:100%;
+        padding-top: 60px;
+        height:60px;
+        
+        font-weight: 400;
+        font-family: "HelveticaNeueLTPro-Hv", "HelveticaNeue-Heavy", "Helvetica Neue Heavy", "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif;
+    }
+    
+
+}
+
+@media (max-width:361px){
+    .para{
+        text-align: center;
+    }
+}
+@media(max-width:731px){
+    .tiny{
+        height:4%;
+    }
+    .para{
+        width:37%;
+    }
+}
+.meetecobud{
+    width:19%;
+    height:8%;
+    font-size: 13px;
+    margin-left: 10%;
+    background-color: #f6f6f6;
+    color:black;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-weight: 400;
+    font-family: "HelveticaNeueLTPro-Hv", "HelveticaNeue-Heavy", "Helvetica Neue Heavy", "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif;
+}
+.innermeetecobud{
+    width:100%;
+    text-align: center;
+    height:50%;
+}
+@media (max-width:731px){
+    .meetecobud{
+        width:20%;
+    }
+}
+@media (max-width:696px){
+    .meetecobud{
+        width:27%;
+    }
+}
+@media(max-width:731px){
+    .tiny{
+        height:4%;
+    }
+    .para{
+        width:90%;
+    }
+    .meetecobud{
+        width:90%;
+        margin:auto;
+    }
+}
+@media(max-width:770px){
+    .para{
+        text-align: left;
+        width:40%;
+    }
+    .meetecobud{
+        width:37%;
+        
+    }
+
+}
+@media(max-width:850px){
+    .para{
+        text-align: left;
+        width:49%;
+    }
+    .meetecobud{
+        width:40%;
+        height:5%;
+        
+    }
+
+}
+@media(max-width:1030px){
+    .para{
+        text-align: left;
+        width:49%;
+    }
+    .meetecobud{
+        width:40%;
+        height:5%;
+        
+    }
+
+}
+.meetecobud:hover{
+    cursor: pointer;
+}
