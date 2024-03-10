@@ -883,14 +883,254 @@ body{
     width:33.5%;
 }
 .one{
-    background-image: url(./singleearphone.jpeg);
+    background-image: url(./singleheadphone.jpeg);
     background-size: 100% 100%;
 }
 .two{
-    background-image: url(./singleheadphone.jpeg);
+    background-image: url(./singleearphone.jpeg);
     background-size: 100% 100%;
 }
 .three{
     background-image: url(./singlespeaker.jpeg);
     background-size: 100% 100%;
+}
+.shopheadphones{
+    width:100%;
+    height:100%;
+    color:black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-weight: 400;
+    font-family: "HelveticaNeueLTPro-Hv", "HelveticaNeue-Heavy", "Helvetica Neue Heavy", "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif;
+    margin-top: 30%;
+    font-size: 14px;
+    opacity:0;
+}
+.shopheadphones:hover{
+    opacity:1;
+    cursor: pointer;
+}
+.innershopheadphones{
+    background-color: #f6f6f6;
+    text-align: center;
+    width:60%;
+    height:8%;
+    padding-top:5%;
+
+}
+@media(max-width:1050px){
+    .shopheadphones{
+        margin-top:40%;
+        font-size:12px;
+    }
+}
+@media(max-width:831px){
+    .shopheadphones{
+        margin-top:45%;
+        font-size:12px;
+    }
+}
+@media(max-width:550px){
+    .shopheadphones,.shopearphones,.shopspeaker{
+        display: none;
+    }
+    .second-main{
+        width:100%;
+        height:170vh;
+        display: flex;
+        flex-direction: column;
+    }
+    .inner-second-main{
+        width:100%;
+        height:33.5%;
+    }
+}
+.third-main{
+    width:100%;
+    height:70vh;
+    background-image: url(./creamback.jpeg);
+    background-size: 100% 100%;
+    display: flex;
+    flex-direction: column;
+    
+}
+.workshop{
+    width:40%;
+    font-family: "HelveticaNeueLTPro-Hv", "HelveticaNeue-Heavy", "Helvetica Neue Heavy", "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif;
+    color: white;
+    font-size: 36px;
+    font-weight: 800;
+    padding-left: 10%;
+    margin-top: 8%;
+    
+}
+.workshoptext{
+    width:30%;
+    font-family: "HelveticaNeueLTPro-Hv", "HelveticaNeue-Heavy", "Helvetica Neue Heavy", "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif;
+    color: white;
+    font-size: 18px;
+    padding-left: 10%;
+}
+.checkout{
+    width:10%;
+    background-color: #f6f6f6;
+    color:black;
+    font-size: 12px;
+    font-style: "HelveticaNeueLTPro-Hv", "HelveticaNeue-Heavy", "Helvetica Neue Heavy", "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif;;
+    margin-left: 10%;
+    text-align: center;
+    height:10%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.checkout:hover{
+    cursor: pointer;
+}
+@media(max-width:550px){
+    .checkout{
+        margin-left:40%;
+    }
+    
+    
+}
+@media(max-width:1210px){
+    .checkout{
+        width:20%;
+    }
+}
+@media(max-width:900px){
+    .workshoptext{
+        width:50%;
+        padding-left: 4%;
+
+    }
+    .workshop{
+        width:50%;
+        padding-left: 4%;
+    }
+}
+@media(max-width:745px){
+    .workshoptext{
+        width:70%;
+    }
+    .workshop{
+        width:70%;
+    }
+}
+@media(max-width:550px){
+    .workshop{
+        width:100%;
+        text-align: center;   
+     }
+     .workshoptext{
+        width:100%;
+        text-align: center;
+        font-size: 15px;
+        padding: 0px;
+    }
+}
+.fourth-main{
+    background-image: url(./purple.jpeg);
+    background-size:100% 100%;
+    width:100%;
+    height:90vh;
+}
+.fourth-main:hover{
+    cursor: pointer;
+}
+.fifth-main{
+    height:261.737px;
+    width:100%;
+    display: flex;
+    border-bottom: 0.8px solid #969696;
+}
+.hearitfirst{
+    width:33%;
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+    font-size:16px;
+    font-weight: 800;
+    color:white;
+    font-family: "HelveticaNeueLTPro-Hv", "HelveticaNeue-Heavy", "Helvetica Neue Heavy", "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif;
+    margin-top: 5%;
+    height:100%;
+}
+.input{
+    width:45%;
+    height:20%;
+    display: flex;
+}
+input{
+    text-align: center;
+    width:100%;
+    height:92%;
+}
+.o{
+    background-color:white;
+    
+    height:100%;
+    width:20%;
+    border:none;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 18px;
+}
+.innero{
+    color:#969696;
+
+}
+
+.seconddiv{
+    width:34%;
+    display:flex;
+    color:white;
+    font-size: 14px;
+    font-family: "HelveticaNeueLTPro-Hv", "HelveticaNeue-Heavy", "Helvetica Neue Heavy", "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif;
+}
+.firstcontt{
+    width:33%;
+    display: flex;
+    flex-direction: column;
+    gap:5%;
+    padding-top: 15%;
+    font-weight: 400;
+}
+.secondcontt{
+    width:34%;
+    display: flex;
+    flex-direction: column;
+    gap:5%;
+    padding-top: 15%;
+    font-weight: 400;
+}
+.thirdcontt{
+    width:33%;
+    display: flex;
+    flex-direction: column;
+    gap:5%;
+    padding-top: 15%;
+    font-weight: 400;
+}
+.followus{
+    width:33%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-size:16px;
+    font-weight: 800;
+    color:white;
+    font-family: "HelveticaNeueLTPro-Hv", "HelveticaNeue-Heavy", "Helvetica Neue Heavy", "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif;
+    margin-top: 5%;
+}
+.icons{
+    display:flex;
+    width:50%;
+    justify-content: center;
+}
+.y{
+    width:25%;
 }
