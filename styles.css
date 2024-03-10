@@ -820,3 +820,77 @@ body{
 .meetecobud:hover{
     cursor: pointer;
 }
+.inner-second-one{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.inner-second-two{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.textfirst{
+    color:white;
+    font-size: 18px;
+    font-weight: 800;
+    width:90%;
+  font-family: "HelveticaNeueLTPro-Hv", "HelveticaNeue-Heavy", "Helvetica Neue Heavy", "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif;;
+  text-align: center;
+  margin-top: 10%;
+}
+.textsecond{
+    color:white;
+    font-size: 14px;
+    font-weight: 400;
+    width:70%;
+    text-align: center;
+  font-family: "HelveticaNeueLTPro-Hv", "HelveticaNeue-Heavy", "Helvetica Neue Heavy", "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif;;
+}
+@media(max-width:1370px){
+    .textfirst{
+        font-size:17px;
+        width:90%;
+    }
+}
+@media(max-width:1034px){
+    .textfirst{
+        font-size:16px;
+        width:90%;
+    }
+}
+@media(max-width:974px){
+    .textfirst{
+        font-size:14px;
+        width:90%;
+    }
+}
+.textfirstt{
+    color:white;
+    font-size: 17px;
+    font-weight: 800;
+    width:95%;
+  font-family: "HelveticaNeueLTPro-Hv", "HelveticaNeue-Heavy", "Helvetica Neue Heavy", "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif;;
+  text-align: center;
+  margin-top: 10%;
+}
+.second-main{
+    width:100%;
+    height:70vh;
+    display: flex;
+}
+.inner-second-main{
+    width:33.5%;
+}
+.one{
+    background-image: url(./singleearphone.jpeg);
+    background-size: 100% 100%;
+}
+.two{
+    background-image: url(./singleheadphone.jpeg);
+    background-size: 100% 100%;
+}
+.three{
+    background-image: url(./singlespeaker.jpeg);
+    background-size: 100% 100%;
+}
